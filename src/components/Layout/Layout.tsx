@@ -12,14 +12,12 @@ interface LayoutProps {
 const Layout: React.FC<LayoutProps> = ({children}) => {
   const [value, setValue] = useState<string | null>(null);
   const location = useLocation();
-  const [crumbs, setCrumbs] =  useState<{ text: string; link: string }[]>([{ text: "Inicio", link: "/" }])
+  const [crumbs, setCrumbs] =  useState<{ text: string; link: string }[]>([{ text: "Inicio", link : "/"}])
 
 
   useEffect( () => {
     configCrumbs()
   }, [location])
-
-
 
   const configCrumbs = () => {
     const match = location.pathname.match(/\/items\/([^/]+)/);
