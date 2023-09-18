@@ -26,7 +26,6 @@ const SearchResults: React.FC = () => {
   const searchValue = searchParams.get("search");
 
   useEffect(() => {
-    console.log(searchValue)
     handleSearch()
   }, [searchValue])
 

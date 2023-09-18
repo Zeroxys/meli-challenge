@@ -1,49 +1,49 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Minimal Starter
-</h1>
+# Meli-Challenge
 
-## 🚀 Quick start
+Esta prueba tecnica fue creada con Gatsby. Este readme contiene información sobre...
 
-1.  **Create a Gatsby site.**
+## Cómo Ejecutar
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+Para ejecutar este proyecto en tu entorno local, sigue estos pasos:
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+1. Clona el repositorio: `git clone https://github.com/Zeroxys/meli-challenge.git`
+2. Navega al directorio del proyecto: `cd meli-challenge`
+3. Instala las dependencias: `npm install`
+4. Inicia el servidor de desarrollo: `gatsby develop`
 
-2.  **Start developing.**
+## Funcionalidades
 
-    Navigate into your new site’s directory and start it up.
+- Navegacion entre páginas.
+- Búsqueda de productos.
+- Página de Producto.
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+## Estructura del Proyecto
 
-3.  **Open the code and start customizing!**
+meli-challenge/
+├── node_modules/
+├── src/
+│   ├── pages/
+│   │   ├── index.js
+│   │   ├── 404.js
+│   │   └── items/
+│   │       └── items/
+│   │           ├── index.js
+│   │           └── id/
+│   │               └── index.js
+│   ├── components/
+│   │   ├── BreadCrumb/
+│   │   ├── Layout/
+│   │   ├── ProductDetail/
+│   │   ├── SearchBar/
+│   │   └── SearchResult/
+│   ├── images/
+│   ├── assets/
+│   ├── utils/
+├── gatsby-config.js
+├── README.md
+├── package.json
+├── package-lock.json
+└── .gitignore
 
-    Your site is now running at http://localhost:8000!
 
-    Edit `src/pages/index.js` to see your site update in real-time!
 
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Tutorials](https://www.gatsbyjs.com/docs/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Guides](https://www.gatsbyjs.com/docs/how-to/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Netlify)
-
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
-
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)

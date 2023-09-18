@@ -5,7 +5,6 @@ import Layout from "../../components/Layout/Layout";
 
 const IndexPage = (props) => {
   const location = useLocation();
-  console.log("props",props)
   return (
     <Layout>
       <SearchResults/>
