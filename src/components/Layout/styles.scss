@@ -1,0 +1,17 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin:0
+  }
+
+.layout {
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    background-color: #EEEEEE;
+    height: 100vh;
+    .content {
+        display: flex;
+        justify-content: center;
+        background-color: #EEEEEE;
+    }
+}

@@ -1,0 +1,38 @@
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFE600;
+  padding: 10px;
+
+  .search-barContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    .logo {
+      margin-right: 30px;
+    }
+  
+    input {
+      flex:1;
+      padding: 8px;
+      border: none;
+      outline: none;
+      font-size: 16px;
+    }
+    input::placeholder {
+      color: #EEEEEE; 
+      font-size: 18px;
+    }
+  
+    button {
+      background-color: #EEEEEE;
+      color: #fff;
+      border: none;
+      padding: 6px 16px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+  }  
+}

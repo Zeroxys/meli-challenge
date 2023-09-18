@@ -1,0 +1,49 @@
+.search-results {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-bottom: 36px;
+}
+
+.result-item {
+  display: flex;
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 16px;
+  cursor: pointer;
+}
+
+.result-image {
+  width: 180px;
+  height: 180px;
+  border-radius: 4px;
+  margin-right: 16px;
+}
+
+.result-price-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.result-title {
+  width: 300px;
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+
+.result-price {
+  font-size: 24px;
+  margin: 5px 0;
+  margin-right: 16px;
+  color: #3498db;
+}
+
+.result-location {
+  text-align: end;
+  font-size: 14px;
+  color: #888;
+}

@@ -4,7 +4,18 @@
 module.exports = {
   siteMetadata: {
     title: `meli-challenge`,
-    siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-sass"]
+  plugins: [
+    "gatsby-plugin-sass",
+    {
+      resolve: 'gatsby-plugin-google-fonts',
+      options: {
+        fonts: [
+          `limelight`,
+          `source sans pro\:300,400,400i,700`
+        ],
+        display: 'swap',
+      },
+    }
+  ],
 };
